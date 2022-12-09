@@ -133,6 +133,8 @@
             this.txtFirstHour.TabIndex = 0;
             this.txtFirstHour.Text = "0";
             this.txtFirstHour.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtFirstHour.TextChanged += new System.EventHandler(this.button3_Click);
+            this.txtFirstHour.Leave += new System.EventHandler(this.TextBoxLeave);
             // 
             // txtFirstMinutes
             // 
@@ -143,6 +145,7 @@
             this.txtFirstMinutes.TabIndex = 1;
             this.txtFirstMinutes.Text = "0";
             this.txtFirstMinutes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtFirstMinutes.Leave += new System.EventHandler(this.TextBoxLeave);
             // 
             // txtFirstSecond
             // 
@@ -153,6 +156,7 @@
             this.txtFirstSecond.TabIndex = 2;
             this.txtFirstSecond.Text = "0";
             this.txtFirstSecond.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtFirstSecond.Leave += new System.EventHandler(this.TextBoxLeave);
             // 
             // txtSecondHour
             // 
@@ -163,6 +167,7 @@
             this.txtSecondHour.TabIndex = 5;
             this.txtSecondHour.Text = "0";
             this.txtSecondHour.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSecondHour.Leave += new System.EventHandler(this.TextBoxLeave);
             // 
             // txtSecondMinutes
             // 
@@ -173,6 +178,7 @@
             this.txtSecondMinutes.TabIndex = 6;
             this.txtSecondMinutes.Text = "0";
             this.txtSecondMinutes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSecondMinutes.Leave += new System.EventHandler(this.TextBoxLeave);
             // 
             // txtSecondSecond
             // 
@@ -183,6 +189,7 @@
             this.txtSecondSecond.TabIndex = 7;
             this.txtSecondSecond.Text = "0";
             this.txtSecondSecond.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSecondSecond.Leave += new System.EventHandler(this.TextBoxLeave);
             // 
             // txtThridHour
             // 
@@ -194,6 +201,7 @@
             this.txtThridHour.TabIndex = 10;
             this.txtThridHour.Text = "0";
             this.txtThridHour.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtThridHour.Leave += new System.EventHandler(this.TextBoxLeave);
             // 
             // txtThridMinutes
             // 
@@ -205,6 +213,7 @@
             this.txtThridMinutes.TabIndex = 11;
             this.txtThridMinutes.Text = "0";
             this.txtThridMinutes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtThridMinutes.Leave += new System.EventHandler(this.TextBoxLeave);
             // 
             // txtThridSecond
             // 
@@ -216,6 +225,7 @@
             this.txtThridSecond.TabIndex = 12;
             this.txtThridSecond.Text = "0";
             this.txtThridSecond.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtThridSecond.Leave += new System.EventHandler(this.TextBoxLeave);
             // 
             // lblThridAM
             // 
@@ -374,6 +384,7 @@
             this.txtHour.Text = "0";
             this.txtHour.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtHour.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtHour.Leave += new System.EventHandler(this.TextBoxLeave);
             // 
             // label8
             // 
@@ -394,6 +405,7 @@
             this.txtMinutes.Text = "0";
             this.txtMinutes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtMinutes.TextChanged += new System.EventHandler(this.txtMinutes_TextChanged);
+            this.txtMinutes.Leave += new System.EventHandler(this.TextBoxLeave);
             // 
             // label9
             // 
@@ -414,6 +426,7 @@
             this.txtSecond.Text = "0";
             this.txtSecond.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtSecond.TextChanged += new System.EventHandler(this.txtSecond_TextChanged);
+            this.txtSecond.Leave += new System.EventHandler(this.TextBoxLeave);
             // 
             // txtHourM
             // 

@@ -220,5 +220,14 @@ namespace Noorani_Clock
             txtSecondS.Text = co3.Second.ToString();
 
         }
+
+        private void TextBoxLeave(object sender, EventArgs e)
+        {
+            TextBox text = (TextBox)sender;
+            if (text.Text == "")
+            {
+                text.Text = "0";
+            }
+        }
     }
 }
