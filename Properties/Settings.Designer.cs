@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MyClock.Properties {
+namespace Clock.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
