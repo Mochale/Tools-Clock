@@ -82,7 +82,7 @@
             this.button1.Location = new System.Drawing.Point(107, 163);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(69, 23);
-            this.button1.TabIndex = 15;
+            this.button1.TabIndex = 6;
             this.button1.Text = "Plus";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -92,7 +92,7 @@
             this.button2.Location = new System.Drawing.Point(188, 163);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(69, 23);
-            this.button2.TabIndex = 16;
+            this.button2.TabIndex = 7;
             this.button2.Text = "Minus";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -164,7 +164,7 @@
             this.txtSecondHour.MaxLength = 2;
             this.txtSecondHour.Name = "txtSecondHour";
             this.txtSecondHour.Size = new System.Drawing.Size(46, 22);
-            this.txtSecondHour.TabIndex = 5;
+            this.txtSecondHour.TabIndex = 3;
             this.txtSecondHour.Text = "0";
             this.txtSecondHour.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtSecondHour.Leave += new System.EventHandler(this.TextBoxLeave);
@@ -175,7 +175,7 @@
             this.txtSecondMinutes.MaxLength = 2;
             this.txtSecondMinutes.Name = "txtSecondMinutes";
             this.txtSecondMinutes.Size = new System.Drawing.Size(46, 22);
-            this.txtSecondMinutes.TabIndex = 6;
+            this.txtSecondMinutes.TabIndex = 4;
             this.txtSecondMinutes.Text = "0";
             this.txtSecondMinutes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtSecondMinutes.Leave += new System.EventHandler(this.TextBoxLeave);
@@ -186,7 +186,7 @@
             this.txtSecondSecond.MaxLength = 2;
             this.txtSecondSecond.Name = "txtSecondSecond";
             this.txtSecondSecond.Size = new System.Drawing.Size(46, 22);
-            this.txtSecondSecond.TabIndex = 7;
+            this.txtSecondSecond.TabIndex = 5;
             this.txtSecondSecond.Text = "0";
             this.txtSecondSecond.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtSecondSecond.Leave += new System.EventHandler(this.TextBoxLeave);
@@ -269,7 +269,7 @@
             this.ThridChbx.Location = new System.Drawing.Point(305, 132);
             this.ThridChbx.Name = "ThridChbx";
             this.ThridChbx.Size = new System.Drawing.Size(73, 20);
-            this.ThridChbx.TabIndex = 13;
+            this.ThridChbx.TabIndex = 10;
             this.ThridChbx.Text = "Am_Pm";
             this.ThridChbx.UseVisualStyleBackColor = true;
             this.ThridChbx.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
@@ -280,7 +280,7 @@
             this.button3.Location = new System.Drawing.Point(305, 163);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(69, 23);
-            this.button3.TabIndex = 17;
+            this.button3.TabIndex = 14;
             this.button3.Text = "Long";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -290,7 +290,7 @@
             this.button4.Location = new System.Drawing.Point(386, 163);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(69, 23);
-            this.button4.TabIndex = 18;
+            this.button4.TabIndex = 15;
             this.button4.Text = "Short time";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -301,7 +301,7 @@
             this.SecondChbx.Location = new System.Drawing.Point(305, 99);
             this.SecondChbx.Name = "SecondChbx";
             this.SecondChbx.Size = new System.Drawing.Size(73, 20);
-            this.SecondChbx.TabIndex = 8;
+            this.SecondChbx.TabIndex = 9;
             this.SecondChbx.Text = "Am_Pm";
             this.SecondChbx.UseVisualStyleBackColor = true;
             this.SecondChbx.CheckedChanged += new System.EventHandler(this.SecondChbx_CheckedChanged);
@@ -312,7 +312,7 @@
             this.FirstChbx.Location = new System.Drawing.Point(305, 66);
             this.FirstChbx.Name = "FirstChbx";
             this.FirstChbx.Size = new System.Drawing.Size(73, 20);
-            this.FirstChbx.TabIndex = 3;
+            this.FirstChbx.TabIndex = 8;
             this.FirstChbx.Text = "Am_Pm";
             this.FirstChbx.UseVisualStyleBackColor = true;
             this.FirstChbx.CheckedChanged += new System.EventHandler(this.FirstChbx_CheckedChanged);
@@ -341,7 +341,7 @@
             this.ThridChbxLS.Location = new System.Drawing.Point(380, 132);
             this.ThridChbxLS.Name = "ThridChbxLS";
             this.ThridChbxLS.Size = new System.Drawing.Size(87, 20);
-            this.ThridChbxLS.TabIndex = 14;
+            this.ThridChbxLS.TabIndex = 13;
             this.ThridChbxLS.Text = "LongShort";
             this.ThridChbxLS.UseVisualStyleBackColor = true;
             // 
@@ -351,7 +351,7 @@
             this.SecondChbxLS.Location = new System.Drawing.Point(380, 99);
             this.SecondChbxLS.Name = "SecondChbxLS";
             this.SecondChbxLS.Size = new System.Drawing.Size(87, 20);
-            this.SecondChbxLS.TabIndex = 9;
+            this.SecondChbxLS.TabIndex = 12;
             this.SecondChbxLS.Text = "LongShort";
             this.SecondChbxLS.UseVisualStyleBackColor = true;
             // 
@@ -361,7 +361,7 @@
             this.FirstChbxLS.Location = new System.Drawing.Point(380, 66);
             this.FirstChbxLS.Name = "FirstChbxLS";
             this.FirstChbxLS.Size = new System.Drawing.Size(87, 20);
-            this.FirstChbxLS.TabIndex = 4;
+            this.FirstChbxLS.TabIndex = 11;
             this.FirstChbxLS.Text = "LongShort";
             this.FirstChbxLS.UseVisualStyleBackColor = true;
             // 
@@ -371,7 +371,7 @@
             this.label4.Location = new System.Drawing.Point(26, 224);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(39, 16);
-            this.label4.TabIndex = 19;
+            this.label4.TabIndex = 16;
             this.label4.Text = "Hour ";
             // 
             // txtHour
@@ -392,7 +392,7 @@
             this.label8.Location = new System.Drawing.Point(12, 257);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(53, 16);
-            this.label8.TabIndex = 19;
+            this.label8.TabIndex = 17;
             this.label8.Text = "Minutes";
             // 
             // txtMinutes
@@ -413,7 +413,7 @@
             this.label9.Location = new System.Drawing.Point(11, 290);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(54, 16);
-            this.label9.TabIndex = 19;
+            this.label9.TabIndex = 18;
             this.label9.Text = "Second";
             // 
             // txtSecond
@@ -435,7 +435,7 @@
             this.txtHourM.MaxLength = 11;
             this.txtHourM.Name = "txtHourM";
             this.txtHourM.Size = new System.Drawing.Size(100, 22);
-            this.txtHourM.TabIndex = 21;
+            this.txtHourM.TabIndex = 25;
             this.txtHourM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtHourH
@@ -445,7 +445,7 @@
             this.txtHourH.MaxLength = 11;
             this.txtHourH.Name = "txtHourH";
             this.txtHourH.Size = new System.Drawing.Size(63, 22);
-            this.txtHourH.TabIndex = 20;
+            this.txtHourH.TabIndex = 22;
             this.txtHourH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtHourS
@@ -455,7 +455,7 @@
             this.txtHourS.MaxLength = 11;
             this.txtHourS.Name = "txtHourS";
             this.txtHourS.Size = new System.Drawing.Size(139, 22);
-            this.txtHourS.TabIndex = 21;
+            this.txtHourS.TabIndex = 28;
             this.txtHourS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtMinutesH
@@ -465,7 +465,7 @@
             this.txtMinutesH.MaxLength = 11;
             this.txtMinutesH.Name = "txtMinutesH";
             this.txtMinutesH.Size = new System.Drawing.Size(63, 22);
-            this.txtMinutesH.TabIndex = 20;
+            this.txtMinutesH.TabIndex = 23;
             this.txtMinutesH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtMinutesM
@@ -475,7 +475,7 @@
             this.txtMinutesM.MaxLength = 11;
             this.txtMinutesM.Name = "txtMinutesM";
             this.txtMinutesM.Size = new System.Drawing.Size(100, 22);
-            this.txtMinutesM.TabIndex = 21;
+            this.txtMinutesM.TabIndex = 26;
             this.txtMinutesM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtMinutesS
@@ -485,7 +485,7 @@
             this.txtMinutesS.MaxLength = 11;
             this.txtMinutesS.Name = "txtMinutesS";
             this.txtMinutesS.Size = new System.Drawing.Size(139, 22);
-            this.txtMinutesS.TabIndex = 21;
+            this.txtMinutesS.TabIndex = 29;
             this.txtMinutesS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtSecondH
@@ -495,7 +495,7 @@
             this.txtSecondH.MaxLength = 11;
             this.txtSecondH.Name = "txtSecondH";
             this.txtSecondH.Size = new System.Drawing.Size(63, 22);
-            this.txtSecondH.TabIndex = 20;
+            this.txtSecondH.TabIndex = 24;
             this.txtSecondH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtSecondM
@@ -505,7 +505,7 @@
             this.txtSecondM.MaxLength = 11;
             this.txtSecondM.Name = "txtSecondM";
             this.txtSecondM.Size = new System.Drawing.Size(100, 22);
-            this.txtSecondM.TabIndex = 21;
+            this.txtSecondM.TabIndex = 27;
             this.txtSecondM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtSecondS
@@ -515,7 +515,7 @@
             this.txtSecondS.MaxLength = 11;
             this.txtSecondS.Name = "txtSecondS";
             this.txtSecondS.Size = new System.Drawing.Size(139, 22);
-            this.txtSecondS.TabIndex = 21;
+            this.txtSecondS.TabIndex = 30;
             this.txtSecondS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label10

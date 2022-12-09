@@ -21,6 +21,11 @@ namespace Noorani_Clock
         Clock c2 = new Clock();
         Clock c3 = new Clock();
 
+        protected void reset_focus()
+        {
+            txtFirstHour.Focus();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             Clock C1 = new Clock(int.Parse(txtFirstHour.Text), int.Parse(txtFirstMinutes.Text),
@@ -37,6 +42,8 @@ namespace Noorani_Clock
             txtThridMinutes.Text = C3.Minute.ToString();
             txtThridSecond.Text = C3.Second.ToString();
             c3 = C3;
+
+            reset_focus();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -53,6 +60,8 @@ namespace Noorani_Clock
             txtThridMinutes.Text = C3.Minute.ToString();
             txtThridSecond.Text = C3.Second.ToString();
             c3 = C3;
+
+            reset_focus();
         }
 
         private void button3_Click(object sender, EventArgs e)
