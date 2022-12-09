@@ -238,5 +238,12 @@ namespace Noorani_Clock
                 text.Text = "0";
             }
         }
+
+        private void TextBoxEnter(object sender, EventArgs e)
+        {
+            TextBox text = (TextBox)sender;
+
+            text.SelectAll();
+        }
     }
 }
