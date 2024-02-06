@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Clock.Properties {
+namespace Noorani_Clock.Properties {
     using System;
     
     

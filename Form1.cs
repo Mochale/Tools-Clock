@@ -245,5 +245,16 @@ namespace Noorani_Clock
 
             text.SelectAll();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void v2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frm = new SpecialyForm();
+            frm.ShowDialog();
+        }
     }
 }
